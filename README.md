@@ -7,13 +7,13 @@
 
 This project provides an n8n automation workflow that monitors an Ubuntu VPS for available system package updates. Whenever new updates are detected, the workflow triggers a notification to a Telegram chat, enabling proactive and efficient system maintenance.
 
-# **Key Features**
+## **Key Features**
 
 • Periodically checks the VPS for pending package updates.
 • Sends real-time alerts via Telegram when updates are available.
 • Reduces the need for manual system monitoring.
 • Lightweight and fully automated, requiring minimal configuration.
 
-# **Purpose**
+## **Purpose**
 
 The workflow ensures that administrators stay informed about update availability, improving system security and reliability by encouraging timely maintenance actions.
