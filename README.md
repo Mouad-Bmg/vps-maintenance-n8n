@@ -1,16 +1,19 @@
 # vps-maintenance-n8n
-# **N8n workflows to monitor and maintain my Hostinger VPS**
 
-## **This N8n workflow checks for available package updates on an Ubuntu VPS and sends a Telegram alert if updates are found. It helps automate basic system maintenance.**
+**Automated n8n workflow that monitors an Ubuntu VPS for available package updates and sends instant alerts via Telegram, ensuring timely system maintenance without manual checks.**
 
-Steps:
+# **Ubuntu VPS Update Notifier**
+## **Overview**
 
-Cron node triggers the workflow at regular intervals.
+This project provides an n8n automation workflow that monitors an Ubuntu VPS for available system package updates. Whenever new updates are detected, the workflow triggers a notification to a Telegram chat, enabling proactive and efficient system maintenance.
 
-SSH node runs apt list --upgradable on the VPS.
+# **Key Features**
 
-Set node formats the output to count upgradable packages.
+• Periodically checks the VPS for pending package updates.
+• Sends real-time alerts via Telegram when updates are available.
+• Reduces the need for manual system monitoring.
+• Lightweight and fully automated, requiring minimal configuration.
 
-IF node checks if the count is greater than zero.
+# **Purpose**
 
-Telegram node sends a message with the number of packages to update.
+The workflow ensures that administrators stay informed about update availability, improving system security and reliability by encouraging timely maintenance actions.
